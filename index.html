@@ -9,9 +9,29 @@
   <body>
 
     <h1>Game Library</h1>
+    <form>
+      Game Title:
+      <br>
+      <input id="gameinput" class="form-input" type="text" name="gametitle">
+      <br>
+       <br>
+      Game Type:
+      <br>
+        <select name="gametypes" id="gametypes" class="form-input">
+          <option value="" disabled selected>Game Type?</option>
+          <option value="Video Games">Video Games</option>
+          <option value="Board Games">Board Games</option>
+          <option value="Drinking Games">Drinking Games</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" id="gamesubmit" value="Submit">
+    </form>
+
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+
   </body>
 </html>

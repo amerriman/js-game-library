@@ -1,9 +1,9 @@
 // *** jQuery DOM Manipulation *** //
 //GAME LIBRARY Arrays - for testing purposes
-var videoGames = new GameLibrary("Video Games");
-var boardGames = new GameLibrary("Board Games");
-var drinkingGames = new GameLibrary("Drinking Games");
-var libraries = [videoGames, boardGames, drinkingGames];
+// var videoGames = new GameLibrary("Video Games");
+// var boardGames = new GameLibrary("Board Games");
+// var drinkingGames = new GameLibrary("Drinking Games");
+// var libraries = [videoGames, boardGames, drinkingGames];
 
 ///helper function to show all games from that library///
 function findLibrary(libraryType){

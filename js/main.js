@@ -28,3 +28,8 @@ var GameLibrary = function(type){
   this.type = type;
   this.games = [];
 };
+
+var videoGames = new GameLibrary("Video Games");
+var boardGames = new GameLibrary("Board Games");
+var drinkingGames = new GameLibrary("Drinking Games");
+var libraries = [videoGames, boardGames, drinkingGames];

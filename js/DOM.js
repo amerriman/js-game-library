@@ -7,7 +7,7 @@
 
 ///helper function to show all games from that library///
 function findLibrary(libraryType){
-
+//checking to see what the librayType is
   if(libraryType === "videoGames"){
     $("#game-library-container").append('<h4>Video Games</h4>');
     for (var i = 0; i < videoGames.games.length; i++) {
@@ -37,7 +37,7 @@ $(document).on('ready', function() {});
 
 //submit new game form//
 $('form').not("#show-library").on('submit', function(event){
-
+//make sure there is no default behavior
   event.preventDefault();
 
   // grab user inputs, then clear inputs
